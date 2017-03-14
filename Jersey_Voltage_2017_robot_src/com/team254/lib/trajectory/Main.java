@@ -168,14 +168,14 @@ public class Main {
       p.addWaypoint(new WaypointSequence.Waypoint(8, 2, Math.PI/4));
       p.addWaypoint(new WaypointSequence.Waypoint(12, 4, 0));*/
       
-      p.addWaypoint(new WaypointSequence.Waypoint(2.95, 0, 0));
-      p.addWaypoint(new WaypointSequence.Waypoint(4.15, 0.3, Math.PI/8));
-      p.addWaypoint(new WaypointSequence.Waypoint(4.65, 0.5, Math.PI/6));
-      p.addWaypoint(new WaypointSequence.Waypoint(4.95, 0.8, Math.PI/5));
-      p.addWaypoint(new WaypointSequence.Waypoint(5.25, 1.15, Math.PI/4));
-      p.addWaypoint(new WaypointSequence.Waypoint(5.45, 1.5, Math.PI/3));
-      p.addWaypoint(new WaypointSequence.Waypoint(5.65, 1.8, Math.PI/3));
-      p.addWaypoint(new WaypointSequence.Waypoint(5.78, 1.93, Math.PI/2.9));
+      p.addWaypoint(new WaypointSequence.Waypoint(2.5, 0, 0));
+      p.addWaypoint(new WaypointSequence.Waypoint(4, 0.3, Math.PI/8));
+      p.addWaypoint(new WaypointSequence.Waypoint(4.3, 0.5, Math.PI/6));
+      p.addWaypoint(new WaypointSequence.Waypoint(4.6, 0.65, Math.PI/5));
+      p.addWaypoint(new WaypointSequence.Waypoint(5.2, 0.9, Math.PI/4));
+      p.addWaypoint(new WaypointSequence.Waypoint(5.434, 1.1, Math.PI/3.6));
+      p.addWaypoint(new WaypointSequence.Waypoint(5.48, 1.17, Math.PI/3.6));
+      //p.addWaypoint(new WaypointSequence.Waypoint(5.78, 1.93, Math.PI/2.9));
       
       /*p.addWaypoint(new WaypointSequence.Waypoint(1.5, 0, 0));
       p.addWaypoint(new WaypointSequence.Waypoint(1.6, 0.2, Math.PI/10));
