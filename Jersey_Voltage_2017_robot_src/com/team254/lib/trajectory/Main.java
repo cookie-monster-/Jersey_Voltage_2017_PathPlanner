@@ -153,12 +153,15 @@ public class Main {
       config.max_jerk = 50.0;
       config.max_vel = 8.8;
       // Path name must be a valid Java class name.
-      final String path_name = "JerseyVoltagePath";
+      final String path_name = "CenterGearPath";
       
       // Description of this auto mode path.
       // Remember that this is for the GO LEFT CASE!
       WaypointSequence p = new WaypointSequence(10);
       p.addWaypoint(new WaypointSequence.Waypoint(0, 0, 0));
+      
+      p.addWaypoint(new WaypointSequence.Waypoint(9.58333, 0, 0));
+      
       //p.addWaypoint(new WaypointSequence.Waypoint(3, 0, 0));
       
       //p.addWaypoint(new WaypointSequence.Waypoint(10, 1, Math.PI/6));
@@ -168,13 +171,14 @@ public class Main {
       p.addWaypoint(new WaypointSequence.Waypoint(8, 2, Math.PI/4));
       p.addWaypoint(new WaypointSequence.Waypoint(12, 4, 0));*/
       
-      p.addWaypoint(new WaypointSequence.Waypoint(2.5, 0, 0));
-      p.addWaypoint(new WaypointSequence.Waypoint(4, 0.3, Math.PI/8));
-      p.addWaypoint(new WaypointSequence.Waypoint(4.3, 0.5, Math.PI/6));
-      p.addWaypoint(new WaypointSequence.Waypoint(4.6, 0.65, Math.PI/5));
-      p.addWaypoint(new WaypointSequence.Waypoint(5.2, 0.9, Math.PI/4));
-      p.addWaypoint(new WaypointSequence.Waypoint(5.434, 1.1, Math.PI/3.6));
-      p.addWaypoint(new WaypointSequence.Waypoint(5.48, 1.17, Math.PI/3.6));
+      /*p.addWaypoint(new WaypointSequence.Waypoint(2.5, 0, 0));
+      p.addWaypoint(new WaypointSequence.Waypoint(4.2, 0.3, Math.PI/8));
+      p.addWaypoint(new WaypointSequence.Waypoint(4.5, 0.5, Math.PI/6));
+      p.addWaypoint(new WaypointSequence.Waypoint(4.8, 0.7, Math.PI/5));
+      p.addWaypoint(new WaypointSequence.Waypoint(5.4, 1.05, Math.PI/4));
+      p.addWaypoint(new WaypointSequence.Waypoint(5.5, 1.25, Math.PI/3.6));
+      p.addWaypoint(new WaypointSequence.Waypoint(5.48, 1.4, Math.PI/3.6));*/
+      
       //p.addWaypoint(new WaypointSequence.Waypoint(5.78, 1.93, Math.PI/2.9));
       
       /*p.addWaypoint(new WaypointSequence.Waypoint(1.5, 0, 0));
