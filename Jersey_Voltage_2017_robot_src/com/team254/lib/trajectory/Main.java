@@ -153,14 +153,19 @@ public class Main {
       config.max_jerk = 50.0;
       config.max_vel = 8.8;
       // Path name must be a valid Java class name.
-      final String path_name = "CenterGearPath";
+      final String path_name = "RightGearPath0";
       
       // Description of this auto mode path.
       // Remember that this is for the GO LEFT CASE!
       WaypointSequence p = new WaypointSequence(10);
       p.addWaypoint(new WaypointSequence.Waypoint(0, 0, 0));
+      p.addWaypoint(new WaypointSequence.Waypoint(7.5, 0, 0));
+      //p.addWaypoint(new WaypointSequence.Waypoint(2.55, 0, 0));
       
-      p.addWaypoint(new WaypointSequence.Waypoint(9.58333, 0, 0));
+      //p.addWaypoint(new WaypointSequence.Waypoint(2.5, 0, 0));
+      
+      
+      //p.addWaypoint(new WaypointSequence.Waypoint(6.5, 0, 0));
       
       //p.addWaypoint(new WaypointSequence.Waypoint(3, 0, 0));
       
