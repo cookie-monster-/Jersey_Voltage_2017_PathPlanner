@@ -149,23 +149,24 @@ public class Main {
     
     {
       config.dt = .02;
-      config.max_acc = 17.6;
-      config.max_jerk = 50.0;
-      config.max_vel = 8.8;
+      config.max_acc = 17.6 * 0.7;
+      config.max_jerk = 50.0 * 0.7;
+      config.max_vel = 8.8 * 0.7;
       //
       //forward 80in 90degrees 37in
       //
       // Path name must be a valid Java class name.
-      final String path_name = "HopperPath1";
+      final String path_name = "HopperPath0";
       
       // Description of this auto mode path.
       // Remember that this is for the GO LEFT CASE!
       WaypointSequence p = new WaypointSequence(10);
       p.addWaypoint(new WaypointSequence.Waypoint(0, 0, 0));
-      p.addWaypoint(new WaypointSequence.Waypoint(6.6667, 0, 0));
+      p.addWaypoint(new WaypointSequence.Waypoint(7, 0, 0));
+      //p.addWaypoint(new WaypointSequence.Waypoint(7.0, 0, 0));
       //p.addWaypoint(new WaypointSequence.Waypoint(3.083334, 0, 0));
       //p.addWaypoint(new WaypointSequence.Waypoint(7.5, 0, 0));
-      //p.addWaypoint(new WaypointSequence.Waypoint(2.55, 0, 0));
+      //p.addWaypoint(new WaypointSequence.Waypoint(3.0, 0, 0));
       
       //p.addWaypoint(new WaypointSequence.Waypoint(2.5, 0, 0));
       
